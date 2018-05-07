@@ -40,6 +40,7 @@ keeping track of the wheels and moving the robot accurately and tracking the mov
  ![photo2](photos/drawBot-7.jpg)
  ![photo3](photos/drawBot-10.jpg)
  ![photo4](photos/drawBot-12.jpg)
+ ![photo5](photos/drawBot-1.jpg)
 
 
 ## References and link
