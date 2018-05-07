@@ -40,6 +40,13 @@ keeping track of the wheels and moving the robot accurately and tracking the mov
 - Week 4: fine tune!
 - Week 5: Present!
 
+## final
+ ![photo1](photos/drawBot-20.jpg)
+ ![photo2](photos/drawBot-7.jpg)
+ ![photo3](photos/drawBot-10.jpg)
+ ![photo4](photos/drawBot-12.jpg)
+
+
 ## References and link
  
   http://reprap.org/wiki/Arduino_GCode_Interpreter
@@ -48,4 +55,4 @@ keeping track of the wheels and moving the robot accurately and tracking the mov
   
   https://learn.adafruit.com/adafruit-micro-sd-breakout-board-card-tutorial?view=all
   
- ![pinout](pinout.png)
+ ![pinout](photos/pinout.png)
