@@ -1,39 +1,51 @@
-NB: You might find useful the [sample proposal](https://github.com/zamfi/cca-programming-electronics-fall-2017/blob/master/hw/sample-proposal.md) useful in completing this assignment!
+# Drawing Robot - DAKOTA BLACK
 
-# Your Project Title Here
-
-One-sentence summary of your project goes here. Then, make sure you have each of these sections completed:
+A wheeled robot that interprets G-code to draw images, may or may not include methods of tracking to maintain alignment. 
 
 ## Summary
 
-Here, write a paragraph or two describing what you built for your final project and what was challenging. 
+This project will:
+- create a vector tracing of an image
+- convert the vector drawing to gcode.
+- store gcode on a sd card 
+- set the starting point as the origin
+- read gcode line by line
+- execute x and y comands to postition the robot.
+- execute z up and down comands to raise and lower a pen 
+- keep track of wheel movements
+- keep track of pen up and pen down 
 
-Include a discussion how it will be interactive or responsive to the environment.
 
 ## Component Parts
 
-From what pieces did you build your project?
+The base of the robot will be an adafruit kit, with:
+- geared dc motors for the wheels
+- a servo to raise and lower the pen
+- a motorshield to run the dc motors
+- rotory encoders or light/color sensors to keep track of the wheels
+- an sd card and sdcard shield to store the Gcode
+
 
 Include what types of inputs/outputs/data it will use, and a block diagram showing how all those pieces are connected.
 
 ## Challenges
 
-A brief discussion of what was hard, challenging, or unexpected about your project.
+keeping track of the wheels and moving the robot accurately and tracking the movement of the robot pose the greatest chanllenge.
 
 ## Timeline
 
-What did you do in each of the past five weeks?
-
-- Week 1: Write proposal
-- Week 2: 
-- Week 3:
-- Week 4:
+- Week 1: Write proposal, basic prototype
+- Week 2: pen up & down, wheel tracking, postion tracking
+- Week 3: gcode from sd card 
+- Week 4: fine tune!
 - Week 5: Present!
 
-## Completed Work
-
-Photos and videos of your completed final project!
-
-## References and links
-
-Tutorials, comments, videos, magazine articles - anything you found that helps you understand your project.
+## References and link
+ 
+  http://reprap.org/wiki/Arduino_GCode_Interpreter
+  
+  http://www.instructables.com/id/Arduino-Drawing-Robot/
+  
+  https://learn.adafruit.com/adafruit-micro-sd-breakout-board-card-tutorial?view=all
+  
+ ![pinout](pinout.png)
